@@ -1,0 +1,13 @@
+# Document:
+# http://simiki.org/docs/configuration.html
+
+url: wiki.doitme.tk 
+title: My Wiki
+keywords: Wiki
+description: My Wiki
+author: 
+deploy:
+  - type: rsync
+    user: 
+    host: 
+    dir: 
