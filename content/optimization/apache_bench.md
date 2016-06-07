@@ -1,7 +1,7 @@
 ---
 title: "Apache Bench"
 layout: page
-date: 2016-05-25 00:00
+date: 2016-06-07 00:00
 ---
 
 [TOC]
@@ -135,6 +135,18 @@ Processing:   109  164  77.9    132     438
 Waiting:      104  158  77.2    127     436
 Total:        110  166  78.1    133     440
     //网络上消耗的时间的分解
+      横轴栏位的部分:
+        min:      最小值
+        mean:     平均值(正/负标准差)
+        median:   平均值(中间值)
+        max:      最大值
+
+      纵轴栏位的部分:
+        Connect:  从ab发出TCP要求到Web主机所花费的建立时间.
+        Processing: 从TCP连线建立后,直到HTTP回应(Response)的数据全部收到所花的时间.
+        Waiting: 从发送HTTP要求完后,到HTTP回应(Response)第一个Byte所等待的时间.
+        Total: 等于Connect + Processing 的时间(因为Waiting包含在Processing时间内了)
+
 Percentage of the requests served within a certain time (ms)
   50%    133
   66%    141
