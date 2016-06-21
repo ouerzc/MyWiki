@@ -2,6 +2,7 @@
 title: "angular2开发环境搭建"
 layout: page
 date: 2016-06-21 00:00
+base: target="_blank"
 ---
 
 [TOC]
@@ -242,6 +243,6 @@ npm start
 ```
 
 ### 环境配置参考链接:
-[Angular2 Quickstart](https://angular.io/docs/ts/latest/quickstart.html)
+[Angular2 Quickstart](https://angular.io/docs/ts/latest/quickstart.html){:target="_blank}
 
-[angular2初入眼帘之－搭个环境](https://segmentfault.com/a/1190000004930079)
+[angular2初入眼帘之－搭个环境](https://segmentfault.com/a/1190000004930079){:target="_blank"}
